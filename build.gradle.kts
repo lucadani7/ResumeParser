@@ -52,6 +52,9 @@ dependencies {
 	testImplementation("org.testcontainers:postgresql")
 	testImplementation("org.testcontainers:rabbitmq")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	// https://mvnrepository.com/artifact/io.github.cdimascio/dotenv-java
+	implementation("io.github.cdimascio:dotenv-java:3.1.0")
+
 }
 
 dependencyManagement {
